@@ -1,0 +1,93 @@
+html {
+    background-color: rgb(173, 173, 173);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.effect {
+    transition-duration: 300ms;
+    border-color: rgb(173, 173, 173);
+}
+
+.effect:hover  {
+    transition-duration: 400ms;
+    transform: scale(1.1);
+    border-color: black;
+}
+
+
+.add-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 7px;
+    
+}
+
+.remove-btn {
+    background-color: #ff5b3e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 7px;
+    
+}
+
+.add-btn:active {
+    background-color: #2b672e;
+}
+
+.remove-btn:active {
+    background-color: #893324;
+}
+
+.reset-btn {
+    background-color: #f2ff3e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 7px;
+    
+}
+
+.reset-btn:active {
+    background-color: #959d26;
+    
+}
